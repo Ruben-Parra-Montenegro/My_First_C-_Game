@@ -79,21 +79,12 @@ int  WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int 
 		 }
 		 //simulate
 
-		 clear_screen(0xff0000);
-		 draw_circle(0, 0, 40, 0xffffff);
-		 draw_rect(0, 0, 16, 2, 0x000000);
-		 draw_rect(0, 0, 2, 16, 0x000000);
-		 draw_rect(0, 0, -16, 2, 0x000000);
-		 draw_rect(0, 0, 2, -16, 0x000000);
-
-
-		 draw_rect(16, 8, 2, 10, 0x000000);
-		 draw_rect(-8, 16, 10, 2, 0x000000);
-		 draw_rect(-16, -8, 2, 10, 0x000000);
-		 draw_rect(8, -16,10, 2, 0x000000);
-		 
-
+		 clear_screen(0x000000);
 		
+		 draw_rect(0, 0, 2, 16, 0xFF0000);
+		
+
+		 draw_circle(12, 12, 10, 0xFF0000);
 	
 
 		 //render
