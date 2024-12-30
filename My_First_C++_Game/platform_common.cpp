@@ -8,6 +8,11 @@ enum {
 	BUTTON_DOWN,
 	BUTTON_LEFT,
 	BUTTON_RIGHT,
+	BUTTON_W,
+	BUTTON_S,
+	BUTTON_A,
+	BUTTON_D,
+
 
 	BUTTON_COUNT, // Should be the last item
 };
